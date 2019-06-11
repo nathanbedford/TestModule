@@ -4,23 +4,25 @@ import { Injectable, ɵɵdefineInjectable, Component, NgModule } from '@angular/
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class MyLibService {
-    constructor() { }
+class TfBulmaDialogService {
+    constructor() {
+        console.log('Service was created!');
+    }
 }
-MyLibService.decorators = [
+TfBulmaDialogService.decorators = [
     { type: Injectable, args: [{
                 providedIn: 'root'
             },] }
 ];
 /** @nocollapse */
-MyLibService.ctorParameters = () => [];
-/** @nocollapse */ MyLibService.ngInjectableDef = ɵɵdefineInjectable({ factory: function MyLibService_Factory() { return new MyLibService(); }, token: MyLibService, providedIn: "root" });
+TfBulmaDialogService.ctorParameters = () => [];
+/** @nocollapse */ TfBulmaDialogService.ngInjectableDef = ɵɵdefineInjectable({ factory: function TfBulmaDialogService_Factory() { return new TfBulmaDialogService(); }, token: TfBulmaDialogService, providedIn: "root" });
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class MyLibComponent {
+class TfBulmaDialogComponent {
     constructor() { }
     /**
      * @return {?}
@@ -28,30 +30,30 @@ class MyLibComponent {
     ngOnInit() {
     }
 }
-MyLibComponent.decorators = [
+TfBulmaDialogComponent.decorators = [
     { type: Component, args: [{
-                selector: 'lib-my-lib',
+                selector: 'lib-TfBulmaDialog',
                 template: `
     <p>
-      my-lib works!
+      tf-bulma-dialog works!
     </p>
   `
             }] }
 ];
 /** @nocollapse */
-MyLibComponent.ctorParameters = () => [];
+TfBulmaDialogComponent.ctorParameters = () => [];
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class MyLibModule {
+class TfBulmaDialogModule {
 }
-MyLibModule.decorators = [
+TfBulmaDialogModule.decorators = [
     { type: NgModule, args: [{
-                declarations: [MyLibComponent],
+                declarations: [TfBulmaDialogComponent],
                 imports: [],
-                exports: [MyLibComponent]
+                exports: [TfBulmaDialogComponent]
             },] }
 ];
 
@@ -65,5 +67,5 @@ MyLibModule.decorators = [
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { MyLibComponent, MyLibModule, MyLibService };
-//# sourceMappingURL=nathanbedford-angular-test.js.map
+export { TfBulmaDialogComponent, TfBulmaDialogModule, TfBulmaDialogService };
+//# sourceMappingURL=tf-bulma-dialog.js.map

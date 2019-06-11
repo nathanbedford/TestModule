@@ -1,20 +1,19 @@
 {
-  "name": "nathanbedford-angular-test",
+  "name": "tf-bulma-dialog",
   "version": "0.0.1",
   "peerDependencies": {
-    "nathanbedford-test": "git://github.com/nathanbedford/TestModule.git#master",
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0"
   },
-  "main": "bundles/nathanbedford-angular-test.umd.js",
-  "module": "fesm5/nathanbedford-angular-test.js",
-  "es2015": "fesm2015/nathanbedford-angular-test.js",
-  "esm5": "esm5/nathanbedford-angular-test.js",
-  "esm2015": "esm2015/nathanbedford-angular-test.js",
-  "fesm5": "fesm5/nathanbedford-angular-test.js",
-  "fesm2015": "fesm2015/nathanbedford-angular-test.js",
-  "typings": "nathanbedford-angular-test.d.ts",
-  "metadata": "nathanbedford-angular-test.metadata.json",
+  "main": "bundles/tf-bulma-dialog.umd.js",
+  "module": "fesm5/tf-bulma-dialog.js",
+  "es2015": "fesm2015/tf-bulma-dialog.js",
+  "esm5": "esm5/tf-bulma-dialog.js",
+  "esm2015": "esm2015/tf-bulma-dialog.js",
+  "fesm5": "fesm5/tf-bulma-dialog.js",
+  "fesm2015": "fesm2015/tf-bulma-dialog.js",
+  "typings": "tf-bulma-dialog.d.ts",
+  "metadata": "tf-bulma-dialog.metadata.json",
   "sideEffects": false,
   "dependencies": {
     "tslib": "^1.9.0"

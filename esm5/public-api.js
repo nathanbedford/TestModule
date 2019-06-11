@@ -3,9 +3,9 @@
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /*
- * Public API Surface of my-lib
+ * Public API Surface of tf-bulma-dialog
  */
-export { MyLibService } from './lib/my-lib.service';
-export { MyLibComponent } from './lib/my-lib.component';
-export { MyLibModule } from './lib/my-lib.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25hdGhhbmJlZGZvcmQtYW5ndWxhci10ZXN0LyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBSUEsNkJBQWMsc0JBQXNCLENBQUM7QUFDckMsK0JBQWMsd0JBQXdCLENBQUM7QUFDdkMsNEJBQWMscUJBQXFCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG15LWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL215LWxpYi5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL215LWxpYi5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbXktbGliLm1vZHVsZSc7XG4iXX0=
+export { TfBulmaDialogService } from './lib/tf-bulma-dialog.service';
+export { TfBulmaDialogComponent } from './lib/tf-bulma-dialog.component';
+export { TfBulmaDialogModule } from './lib/tf-bulma-dialog.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3RmLWJ1bG1hLWRpYWxvZy8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLHFDQUFjLCtCQUErQixDQUFDO0FBQzlDLHVDQUFjLGlDQUFpQyxDQUFDO0FBQ2hELG9DQUFjLDhCQUE4QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiB0Zi1idWxtYS1kaWFsb2dcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi90Zi1idWxtYS1kaWFsb2cuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi90Zi1idWxtYS1kaWFsb2cuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL3RmLWJ1bG1hLWRpYWxvZy5tb2R1bGUnO1xuIl19
